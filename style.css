@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ccc;
+    padding: 0 4%;
+    position: fixed;
+    z-index: 3;
+}
+
+header .logo{
+    width: 100px;
+    height: 80px;
+    background: #000;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    padding: 0 4%;
+    background: var(--clr);
+    position: relative;
+    top: 90px;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.yellow{
+    --clr:yellow;
+}
+
+.green{
+    --clr:green;
+}
+
+.red{
+    --clr:red;
+}
+
+.purple{
+    --clr:purple;
+}
